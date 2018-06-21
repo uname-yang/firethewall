@@ -46,14 +46,14 @@ python3 firethewall.py connect
 ```
 python3 firethewall.py status
 ```
-3. 使用完后，销毁主机
+3. 使用完后，销毁主机，现在不要执行
 ```
 python3 firethewall.py destroy
 ```
 
 ### 5. 配置本地代理,以MacOS为例
 依次 [Setting]->[Network]->[Advance]->[Proxies]
-添加SOCK Proxy如图，端口号要和上一步执行的参数一致，ssh隧道建立后再将选线勾上。使用完，同样要将代理配置去除。否则上不了网。
+添加SOCK Proxy如图，端口号要和上一步执行的ssh命令参数一致，ssh隧道建立后再将选线勾上。使用完，**同样要将代理配置去除。否则上不了网**。
 ![img](img/setting.png)
 
 ## END
