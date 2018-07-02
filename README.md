@@ -12,7 +12,7 @@
 * 获取建立ssh隧道连接的信息
 * 销毁云上的主机，不用时可以停掉服务器，减少花费
 
-## Hankbook
+## Handbook
 
 ### 1. 注册DigitalOcean账号
 
